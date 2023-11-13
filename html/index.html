@@ -5,15 +5,20 @@
   <link rel="icon" type="image/svg+xml" href="/img/AparK.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <title>AparK</title>
 </head>
 <body>
 
 <header>
-  <img src="/img/AparKLogo-removebg-preview.png" alt="Logo de la página">
+  <a href="index.html">
+    <img src="/img/AparKLogo-removebg-preview.png" alt="Logo de la página">
+  </a>
   <nav>
     <a href="#inicio">Inicio</a>
-    <a href="#acerca">Acerca de</a>
+    <a href="#bienvenida">Acerca de</a>
     <a href="#socios">Socios</a>
     <a href="#CV">Curriculum Vitae</a>
   </nav>
@@ -21,10 +26,37 @@
 
 <section id="bienvenida">
   <div class="overlay">
-    <h2>Bienvenido a AparK</h2>
-    <p>En AparK, nos especializamos en encontrar el lugar perfecto para aparcar. Nuestro equipo de expertos conoce la ciudad como la palma de su mano y puede ayudarle a encontrar el aparcamiento más cercano, más barato y más seguro.</p>
+    <h1>BIENVENIDO A <span>APAR</span>K</h1>
+    <p>Somos una empresa especializada en encontrar el lugar perfecto para aparcar. Nuestro sistema infalible puede ayudarle a encontrar el aparcamiento.<br> Además, ofrecemos servicios de aparcacoches para brindarte una experiencia completa y sin preocupaciones.</p>
   </div>
 </section>
+
+<main>
+  <div class="main-container">
+
+    <section id="socios" class="socios">
+      <div class="socio">
+          <img src="../img/259461467_893773411325026_3228616388439480470_n.jpg" alt="Imagen del Socio 1">
+          <h2>Aaron Pesqueira Farinha</h2>
+          <p>Una persona responsable, trabajadora, sociable y organizada apasionado del diseño web y la programación</p>
+      </div>
+      <div class="socio">
+          <div class="socio-img">
+            <img src="../img/XL6I07363.png" alt="Imagen del Socio 2">
+          </div>
+
+          <h2>Pedro Vílchez Peña</h2>
+          <p>Una persona responsable, flexible y autodidacta. Siempre dispuesto a ofrecer ayuda a sus compañeros para sacar el trabajo adelante</p>
+      </div>
+    </section>
+
+    <div id="CV" class="cv">
+      <h2>Curriculum Vitae</h2>
+      <embed src="../CV AaronPF.pdf" type="application/pdf" width="70%" height="600px" />
+      <embed src="../CV EuroPass - Pedro Vílchez Peña.pdf" type="application/pdf" width="70%" height="600px" />
+    </div>
+  </div>
+</main>
 
 <footer>
   <p>Copyright &copy; 2023 AparK</p>

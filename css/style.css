@@ -1,8 +1,12 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI';
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #ffff;
 }
 
 header {
@@ -36,9 +40,14 @@ h1 {
 
 p {
   font-size: 18px;
+  line-height: 1.5;
 }
 
-section {
+span {
+  color: #94ff27;
+}
+
+#bienvenida {
   text-align: center;
   margin: 0;
   padding: 0;
@@ -49,7 +58,7 @@ section {
   margin-bottom: 20px;
 }
 
-section img {
+#bienvenida img {
   padding: 0;
   margin: 0;
   width: 100%;
@@ -64,6 +73,50 @@ section img {
   align-items: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay p{
+  width: 90%;
+}
+
+main{
+  text-align: center;
+}
+
+
+.socios {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.socio {
+  text-align: center;
+  flex-basis: 45%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.socio:hover {
+  transform: scale(1.05);
+}
+
+.socio img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+  border-radius: 50%; 
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.cv{
+  padding-top: 10px;
+  background-color:#f2f5f5;
 }
 
 footer {
