@@ -24,13 +24,15 @@ header img {
 }
 
 nav {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
-  margin: 0 20px;
+  margin: 20px;
 }
 
 h1 {
@@ -120,8 +122,52 @@ main{
 }
 
 footer {
+  display: flex;
+  gap: 3rem;
   background-color: #000;
   color: #f0f0f0;
   height: 20%;
   padding: 3rem;
+}
+
+footer p {
+  display: flex;
+  align-self: flex-end;
+}
+
+.ubicacion-index {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.ubicacion {
+  display: flex;
+  gap: 10rem;
+  padding: 2rem;
+}
+
+.ubicacion img {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.ubicacion-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ubicacion-img div {
+  display: flex;
+}
+
+.ubicacion-img div i{
+  margin-top: 0.3rem;
+  margin-right: 1rem;
+}
+
+.ubicacion-img div p{
+  margin: 0;
 }
