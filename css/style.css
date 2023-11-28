@@ -6,7 +6,8 @@ body {
   font-family: 'Segoe UI';
   margin: 0;
   padding: 0;
-  background-color: #ffff;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 header {
@@ -15,8 +16,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
   height: 10%;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header img {
@@ -33,6 +35,10 @@ nav a {
   text-decoration: none;
   color: #fff;
   margin: 20px;
+}
+
+nav a:hover {
+  color: #ccc;
 }
 
 h1 {
@@ -170,4 +176,68 @@ footer p {
 
 .ubicacion-img div p{
   margin: 0;
+}
+
+.titulo-politica {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5rem;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #fff;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-politica h1 {
+  margin: 0;
+  font-family: 'Arial Black', sans-serif;
+  color: #0066FF; /* Cambia el color del texto a azul */
+}
+
+.politica-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.content:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.content h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  color: #333;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.content ul li {
+  line-height: 1.8;
+}
+
+.content img {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.organigrama {
+  width: 100%;
 }
