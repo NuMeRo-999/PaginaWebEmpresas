@@ -196,6 +196,11 @@ footer p {
   color: #0066FF; /* Cambia el color del texto a azul */
 }
 
+.politica-content h2{
+  text-align: center;
+  width: 100%;
+}
+
 .politica-content {
   display: flex;
   flex-direction: column;
