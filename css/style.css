@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  font-family: 'Segoe UI';
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -41,9 +41,14 @@ nav a:hover {
   color: #ccc;
 }
 
+nav .btn:hover {
+  color: black;
+}
+
 h1 {
   margin: 0;
   font-size: 30px;
+  text-transform: uppercase;
 }
 
 p {
@@ -76,6 +81,7 @@ span {
 .overlay {
   height: 30rem;
   display: flex;
+  gap: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -86,6 +92,7 @@ span {
 .overlay p{
   width: 90%;
 }
+
 
 main{
   text-align: center;
@@ -102,7 +109,7 @@ main{
   text-align: center;
   flex-basis: 45%;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 3px solid #94ff27;
   border-radius: 8px;
   transition: transform 0.3s ease-in-out;
 }
@@ -192,8 +199,7 @@ footer p {
 
 .titulo-politica h1 {
   margin: 0;
-  font-family: 'Arial Black', sans-serif;
-  color: #0066FF; /* Cambia el color del texto a azul */
+  font-family: 'Poppins', sans-serif;
 }
 
 .politica-content h2{
@@ -245,4 +251,85 @@ footer p {
 
 .organigrama {
   width: 100%;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid black;
+  color: #000;
+  padding: 10px 20px;
+  background-color: #94ff27;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 20px #ccc 
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 5rem;
+  border-radius: 10px;
+  color: black;
+}
+
+.buscador{
+  background-color: #fff;
+  margin: 0;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.4rem;
+  transition: box-shadow 300ms;
+}
+
+.buscador:hover {
+  outline: none;
+  box-shadow: 0.2rem 0.5rem 1.6rem #94ff27;
+}
+
+input {
+  width: 80%;
+  height: 3rem;
+  border-radius: 10px;
+  margin-right: 2rem;
+}
+
+.fa-magnifying-glass {
+  top: 20px;
+  right: 30px;
+  padding: 10px;
+  margin-left: 1rem;
+  /* border: 1px solid black; */
+  border-radius: 100px;
+}
+
+.ventajas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.promociones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  justify-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.promociones img {
+  width: 80%;
 }

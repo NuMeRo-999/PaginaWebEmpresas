@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -22,47 +22,79 @@
     <img src="img/AparKLogo-removebg-preview.png" alt="Logo de la página">
   </a>
   <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#bienvenida">Acerca de</a>
-    <a href="#socios">Socios</a>
-    <a href="#CV">Curriculum Vitae</a>
+    <a href="#" class="btn" style="padding: 5px 10px;">Registrate</a>
     <a href="html/ubicacion.html">Donde encontrarnos</a>
     <a href="html/organigrama.html">Organigrama</a>
     <a href="html/politicaEmpresa.html">Política de empresa</a>
+    <a href="html/sobreNosotros.html">Sobre Nosotros</a>
   </nav>
 </header>
 
 <section id="bienvenida">
   <div class="overlay">
-    <h1>BIENVENIDO A <span>APAR</span>K</h1>
-    <p>Somos una empresa especializada en encontrar el lugar perfecto para aparcar. Nuestro sistema infalible puede ayudarle a encontrar el aparcamiento.<br> Además, ofrecemos servicios de aparcacoches para brindarte una experiencia completa y sin preocupaciones.</p>
+    <h1 class="left"><span>Apar</span>K a tiempo y sin preocupaciones</h1>
+    <h3>¡ RESERVA YA !</h3>
+    <div class="buscador">
+      <a href="html/busqueda.html">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+      <div>
+        <label class="" for="destino">¿Donde quieres aparcar?</label>
+        <input type="text" id="destino" placeholder="Ciudad, Calle...">
+      </div>
+
+      <div>
+        <label class="" for="fechaEntrada">Entrada</label>
+        <input type="date" name="" id="fechaEntrada" inputmode="none" placeholder="Fecha de entrada">
+      </div>
+
+      <div>
+        <label class="" for="fechaSalida">Salida</label>
+        <input type="date" name="" id="fechaSalida">
+      </div>
+    </div>
+    <div class="botones">
+      <a href="#" class="btn">Registrate</a>
+      <a href="#" class="btn">Promociones</a>
+      <!-- <h1>BIENVENIDO A <span>APAR</span>K</h1>
+      <p>Somos una empresa especializada en encontrar el lugar perfecto para aparcar. Nuestro sistema infalible puede ayudarle a encontrar el aparcamiento.<br> Además, ofrecemos servicios de aparcacoches para brindarte una experiencia completa y sin preocupaciones.</p> -->
+    </div>
   </div>
 </section>
 
 <main>
-  <div class="main-container">
-
-    <section id="socios" class="socios">
-      <div class="socio">
-          <img src="img/259461467_893773411325026_3228616388439480470_n.jpg" alt="Imagen del Socio 1">
-          <h2>Aaron Pesqueira Farinha</h2>
-          <p>Una persona responsable, trabajadora, sociable y organizada apasionado del diseño web y la programación</p>
-      </div>
-      <div class="socio">
-          <div class="socio-img">
-            <img src="img/XL6I07363.png" alt="Imagen del Socio 2">
-          </div>
-
-          <h2>Pedro Vílchez Peña</h2>
-          <p>Una persona responsable, flexible y autodidacta. Siempre dispuesto a ofrecer ayuda a sus compañeros para sacar el trabajo adelante</p>
-      </div>
-    </section>
-
-    <div id="CV" class="cv">
-      <h2>Curriculum Vitae</h2>
-      <embed src="CV AaronPF.pdf" type="application/pdf" width="70%" height="600px" />
-      <embed src="CV EuroPass - Pedro Vílchez Peña.pdf" type="application/pdf" width="70%" height="600px" />
+  <h1>Ventajas de elegirnos </h1>
+  <div class="ventajas">
+    <div class="socio">
+      <h2>Precisión y Actualización en Tiempo Real</h2>
+      <p>Nuestro producto ofrece información precisa y actualizada al instante sobre plazas de estacionamiento disponibles, garantizando una experiencia confiable y sin contratiempos.</p>
     </div>
+    <div class="socio">
+      <h2>Ahorro de Tiempo y Reducción de Estrés</h2>
+      <p>Ahorra tiempo valioso y evita el estrés innecesario al buscar aparcamiento. Nuestro servicio aporta un valor inestimable al brindar acceso rápido y eficiente a plazas libres.</p>
+    </div>
+    <div class="socio">
+      <h2>Facilidad de Uso y Acceso Rápido</h2>
+      <p>Notificaciones inteligentes que alertan sobre la disponibilidad de plazas. Personaliza tus preferencias y recibe actualizaciones según tu ubicación y horarios habituales.</p>
+    </div>
+    <div class="socio">
+      <h2>Sostenibilidad y Conciencia Ambiental</h2>
+      <p>Promovemos la movilidad sostenible. Encuentra y elige aparcamientos ecológicos con facilidad. Contribuye al cuidado del medio ambiente mientras aparcas.</p>
+    </div>
+    <div class="socio">
+      <h2>Ahorro de Tiempo y Reducción de Estrés</h2>
+      <p>Ahorra tiempo valioso y evita el estrés innecesario al buscar aparcamiento. Nuestro servicio aporta un valor inestimable al brindar acceso rápido y eficiente a plazas libres.</p>
+    </div>
+    <div class="socio">
+      <h2>Confianza y Seguridad</h2>
+      <p>Información transparente y precisa sobre tarifas, ubicaciones seguras y servicios adicionales en cada estacionamiento. Confía en una experiencia de estacionamiento segura y sin sorpresas desagradables.</p>
+    </div>
+  </div>
+  <h1>Disfruta de nuestras promociones</h1>
+  <div class="promociones">
+    <img src="/img/Promocion1.png" alt="">
+    <img src="/img/Promocion1.png" alt="">
+    <img src="/img/Promocion1.png" alt="">
   </div>
 </main>
 
