@@ -409,3 +409,19 @@ input {
   justify-content: center;
   align-items: center;
 }
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 1rem;
+}
+
+.redes a{
+  width: fit-content;
+}
+
+.redes img{
+  width: 10%;
+}
