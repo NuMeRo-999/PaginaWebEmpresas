@@ -410,6 +410,10 @@ input {
   align-items: center;
 }
 
+.chat img {
+  width: 80%;
+}
+
 .redes {
   display: flex;
   justify-content: center;
