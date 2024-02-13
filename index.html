@@ -23,14 +23,19 @@
   </a>
   <nav>
     <a href="/html/register.html" class="btn" style="padding: 5px 10px;">Registrate</a>
-    <a href="html/ubicacion.html">Donde encontrarnos</a>
-    <a href="html/organigrama.html">Organigrama</a>
-    <a href="html/politicaEmpresa.html">Política de empresa</a>
-    <a href="html/formaJuridica.html">Forma Jurídica y Estatutos</a>
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fa-solid fa-caret-down"></i> Empresa</button>
+      <div class="dropdown-content">
+        <a href="html/organigrama.html">Organigrama</a>
+        <a href="html/politicaEmpresa.html">Política de empresa</a>
+        <a href="html/formaJuridica.html">Forma Jurídica y Estatutos</a>
+        <a href="html/contratos.html">Contratos</a>
+      </div>
+    </div>
     <a href="html/sobreNosotros.html">Sobre Nosotros</a>
   </nav>
 </header>
-
+<span class="ir-arriba"><i class="fa-solid fa-chevron-up"></i></span>
 <section id="bienvenida">
   <div class="overlay">
     <h1 class="left"><span>Apar</span>K a tiempo y sin preocupaciones</h1>
@@ -159,5 +164,6 @@
   <p>Copyright &copy; 2023 AparK</p>
 </footer>
 
+<script src="main.js"></script>
 </body>
 </html>
