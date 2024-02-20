@@ -5,7 +5,7 @@ btnSubir.addEventListener('click', () => {
 })
 
 window.addEventListener('scroll', () => {
-  var botonIrArriba = document.querySelector('.ir-arriba');
+  let botonIrArriba = document.querySelector('.ir-arriba');
   if (window.scrollY > 0) {
     botonIrArriba.classList.add('mostrar');
   } else {
@@ -13,13 +13,3 @@ window.addEventListener('scroll', () => {
   }
 });
 
-
-document.querySelectorAll('.card').forEach(card => {
-  card.addEventListener('click', () => {
-      card.querySelector('.card-inner').classList.toggle('flipped');
-  });
-});
-
-function flipCard(card) {
-  card.classList.toggle('flipped');
-}
